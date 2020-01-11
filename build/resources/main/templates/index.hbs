@@ -1,0 +1,22 @@
+{{#partial "title"}}Home{{/partial}}
+
+{{#partial "content"}}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <a href="/squadform" class="btn btn-secondary btn-sm">New Squad</a>
+
+                {{#if squads}}
+                    <h3>Current Squads</h3>
+                    {{#each squads}}
+                    <div class="squads bg-secondary">
+                        <p>{{squadName}}</p>
+                    </div>
+                    {{/each}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
+{{/partial}}
+
+{{> layout.hbs}}
