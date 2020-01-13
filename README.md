@@ -13,12 +13,12 @@ This is a web app that allows user to add their preffered group of superheroes t
 - The user can view heroes and squads created.
 
 ## BDD
-*  BDD stands for Behaviour-Driven Development.
+Behaviour-Driven Development.
 
  | Input | Description| Output |
  |:---    | ---: | ---: |
  | User's hero | The user fills in the heroform | Hero has been successfully added. |   
- | User's hero-Squad | The user fills in the squadform | Sduad is succesfully created |
+ | User's hero-Squad | The user fills in the squadform | Squad is succesfully created |
  | View squads | Click on view squads | All the available squads are displayed together with their contents.|
  |
 
