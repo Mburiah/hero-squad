@@ -1,11 +1,14 @@
 {{#partial "title"}}Home{{/partial}}
 
 {{#partial "content"}}
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <a href="/squadform" class="btn btn-secondary btn-sm">New Squad</a>
+    <img class="container-fluid" >
 
+        <div class="row">
+            <div class="col-12">
+
+                <h4><strong>If you cage the beast, the beast will get angry!</strong></h4>
+                <p> Create your squad and add your heroes here. <br> No one can win every battle but no man should fall Without a struggle!</p>
+                <a href="/squadform" class="btn btn-primary">New Squad</a>
                 {{#if squads}}
                     <h3>Current Squads</h3>
                     {{#each squads}}
@@ -15,6 +18,25 @@
                     {{/each}}
                 {{/if}}
             </div>
+            <div class="row">
+                <div class="col-12 pt-2">
+                    <img style= "height:200px" src="/images/female-superheroes .jpg" alt="female avengers">
+                    <a href="/heroform" class="btn btn-primary btn-sm">New Hero</a>
+                    {{#if heroes}}
+                        <h3>Current Heroes</h3>
+                        {{#each heroes}}
+                            <div class="heroes bg-info">
+                            <p>{{heroName}}</p>
+                            </div>
+                        {{/each}}
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer row align-items-center justify-content-center">
+        <div class="col-12 text-center">
+            <p class="lead">&copy; Mburiah-2020</p>
         </div>
     </div>
 {{/partial}}

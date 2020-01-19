@@ -18,13 +18,13 @@ Behaviour-Driven Development.
  | Input | Description| Output |
  |:---    | ---: | ---: |
  | User's hero | The user fills in the heroform | Hero has been successfully added. |   
- | User's hero-Squad | The user fills in the squadform | Squad is succesfully created |
+ | User's hero-Squad | The user fills in the squadform | Squad is successfully created. |
  | View squads | Click on view squads | All the available squads are displayed together with their contents.|
- |
+ 
 
 
 ## Pre-requisites
-1.You need to have java installed. You can use [sdkman](https://sdkman.io/).
+1.You'll need to have java installed. You can use [sdkman](https://sdkman.io/).
 Follow the instructions on the _sdkman_ installation process. Then install java:
  ```bash
 sdk install java

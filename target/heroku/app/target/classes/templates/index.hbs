@@ -5,7 +5,6 @@
         <div class="row">
             <div class="col">
                 <a href="/squadform" class="btn btn-secondary btn-sm">New Squad</a>
-
                 {{#if squads}}
                     <h3>Current Squads</h3>
                     {{#each squads}}
@@ -14,6 +13,19 @@
                     </div>
                     {{/each}}
                 {{/if}}
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="/heroform" class="btn btn-secondary btn-sm">New Hero</a>
+                    {{#if heroes}}
+                        <h3>Current Heroes</h3>
+                        {{#each heroes}}
+                            <div class="heroes bg-info">
+                            <p>{{heroName}}</p>
+                            </div>
+                        {{/each}}
+                    {{/if}}
+                </div>
             </div>
         </div>
     </div>
